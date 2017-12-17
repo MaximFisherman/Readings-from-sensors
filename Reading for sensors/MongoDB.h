@@ -7,7 +7,6 @@ class MongoDB
 public:
 	MongoDB(const char* _uri_str);
 	void addCollection(const char* nameCollection, const char* nameSensor, const char* valueSensor);
-	void deleteCollection(const char* nameCollection);
 	~MongoDB();
 
 private:
